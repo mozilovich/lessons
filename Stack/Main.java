@@ -8,22 +8,18 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         Stack s1 = new Stack();
-        /*s1.add(1);
-        s1.add(2);
         s1.add(3);
-        s1.add(4);
-        System.out.println(s1.getAndDelete());
-        System.out.println(s1.getAndDelete());
-        System.out.println(s1.getAndDelete());
-        System.out.println(s1.getAndDelete());*/
-        String s="[()]";
-        System.out.println(proverka(s));
-
+        s1.getAndDelete();
+        s1.showLast();
+        System.out.println(s1.getSize());
+        String s = "[()]";
+        proverka(s);
     }
+
     public static boolean proverka(String s) {
         Stack st = new Stack();
         char check;
-        for (int i = 0 ; i < s.length() ; i++){
+        for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (c == '{' || c == '(' || c == '[') {
                 st.add(c);
@@ -44,5 +40,5 @@ public class Main {
         }
         return st.getSize() == 0;
     }
-    }
+}
 

@@ -21,7 +21,8 @@ public class Queue {
     public void showLast() {
         System.out.println(list.size() - 1);
     }
-    public int getSize(){
+
+    public int getSize() {
         return list.size();
     }
 

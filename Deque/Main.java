@@ -11,10 +11,14 @@ public class Main {
         d1.addFirst(3);
         d1.addFirst(4);
         d1.addFirst(5);
+        d1.addLast(3);
+        d1.showLast();
+        d1.showFirst();
         System.out.println(d1.getAndDeleteLast());
         System.out.println(d1.getAndDeleteLast());
         System.out.println(d1.getAndDeleteLast());
         System.out.println(d1.getAndDeleteLast());
-        System.out.println(d1.getAndDeleteLast());
+        System.out.println(d1.getAndDeleteFirst());
+        System.out.println(d1.getSize());
     }
 }
