@@ -1,8 +1,6 @@
-package Stack;
+package stack;
 
-/**
- * Created by Admin on 26.02.2017.
- */
+
 public class Stack {
     private int capacity = 1;
     private int size = 0;

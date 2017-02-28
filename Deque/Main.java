@@ -1,4 +1,4 @@
-package Deque;
+package deque;
 
 /**
  * Created by Admin on 26.02.2017.

@@ -1,6 +1,4 @@
-package Stack;
-
-import java.util.Arrays;
+package stack;
 
 /**
  * Created by Admin on 26.02.2017.

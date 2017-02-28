@@ -1,6 +1,4 @@
-package Queue;
-
-import java.util.Arrays;
+package queue;
 
 /**
  * Created by Admin on 26.02.2017.

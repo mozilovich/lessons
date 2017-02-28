@@ -1,10 +1,8 @@
-package Deque;
+package deque;
 
 import java.util.LinkedList;
 
-/**
- * Created by Admin on 26.02.2017.
- */
+
 public class Deque {
     LinkedList list = new LinkedList();
 
